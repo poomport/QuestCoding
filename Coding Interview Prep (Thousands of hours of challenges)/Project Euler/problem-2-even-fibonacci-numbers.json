@@ -1,0 +1,1 @@
+{"index.js":"function fiboEvenSum(n){\n  const fib = [1, 2]; \n  let sumEven = fib[1];\n  function fibonacci(n){\n    if (n <= 1) return fib[n];\n    else if (fib[n]) return fib[n];\n    else {\n      fib[n] = fibonacci(n-1) + fibonacci(n-2);\n      if (fib[n]%2 == 0) sumEven+=fib[n];\n      return fib[n];\n    }\n  }\n  fibonacci(n); \n\n  return sumEven;\n}"}

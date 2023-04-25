@@ -1,0 +1,1 @@
+{"index.js":"\nfunction checkEqual(a, b) {\n  return a === b ? true : false;\n}"}
