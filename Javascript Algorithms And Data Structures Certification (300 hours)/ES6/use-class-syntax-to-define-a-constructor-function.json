@@ -1,0 +1,1 @@
+{"index.js":"class Vegetable {\n  constructor(name) {\n    this.name = name;\n  }\n}\n\nconst carrot = new Vegetable(\"carrot\");\nconsole.log(carrot.name); // => should be 'carrot'"}

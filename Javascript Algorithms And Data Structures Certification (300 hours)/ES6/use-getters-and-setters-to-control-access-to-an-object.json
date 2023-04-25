@@ -1,0 +1,1 @@
+{"index.js":"class Thermostat {\n  constructor(fahrenheit) {\n    this._fahrenheit = fahrenheit;\n  }\n  \n  get temperature() {\n    return (5 / 9) * (this._fahrenheit - 32);\n  }\n  \n  set temperature(celsius) {\n    this._fahrenheit = (celsius * 9.0) / 5 + 32;\n  }\n}"}
