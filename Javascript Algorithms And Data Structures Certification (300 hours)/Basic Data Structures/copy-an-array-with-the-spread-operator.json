@@ -1,0 +1,1 @@
+{"index.js":"\nfunction copyMachine(arr, num) {\n  let newArr = [];\n  while (num >= 1) {\n    newArr.push([...arr]);\n    num--;\n  }\n  return newArr;\n}\n\nconsole.log(copyMachine([true, false, true], 2));"}

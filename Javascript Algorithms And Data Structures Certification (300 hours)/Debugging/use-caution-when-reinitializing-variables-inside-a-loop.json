@@ -1,0 +1,1 @@
+{"index.js":"\nfunction zeroArray(m, n) {\n  let newArray = [];\n  for (let i = 0; i < m; i++) {\n    let row = [];\n    for (let j = 0; j < n; j++) {\n      row.push(0);\n    }\n    newArray.push(row);\n  }\n  return newArray;\n}\nlet matrix = zeroArray(3, 2);\nconsole.log(matrix);"}

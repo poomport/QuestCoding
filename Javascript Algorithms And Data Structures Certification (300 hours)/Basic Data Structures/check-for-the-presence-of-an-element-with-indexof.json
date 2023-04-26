@@ -1,0 +1,1 @@
+{"index.js":"function quickCheck(arr, elem) {\n\nif (arr.indexOf(elem)>=0){\narr.indexOf([\"squash\", \"onions\", \"shallots\"], \"onions\");\nreturn true;}\nreturn false;\n}\n\nconsole.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));\n"}

@@ -1,0 +1,1 @@
+{"index.js":"let foods = {\n  apples: 25,\n  oranges: 32,\n  plums: 28\n\n};\n\nfoods[\"bananas\"] = 13;\nfoods[\"grapes\"] = 35;\nfoods[\"strawberries\"] = 27;\n\nconsole.log(foods);\n\n"}

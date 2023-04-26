@@ -1,0 +1,1 @@
+{"index.js":"\n\nlet receivables = 10;\nlet payables = 8;\nlet netWorkingCapital = receivables - payables;\nconsole.log(`Net working capital is: ${netWorkingCapital}`);"}
