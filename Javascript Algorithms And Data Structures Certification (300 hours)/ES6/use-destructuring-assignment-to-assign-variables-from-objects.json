@@ -1,0 +1,1 @@
+{"index.js":"function getLength(str) {\n  const { length: len } = str;\n  return len;\n}\n\nconsole.log(getLength(\"FreeCodeCamp\")); // Output: 12\n"}
