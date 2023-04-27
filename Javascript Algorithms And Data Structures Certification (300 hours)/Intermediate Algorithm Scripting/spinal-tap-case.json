@@ -1,0 +1,1 @@
+{"index.js":"function spinalCase(str) {\n  var regex = /\\s+|_+/g;\n\n  str = str.replace(/([a-z])([A-Z])/g, \"$1 $2\");\n\n  return str.replace(regex, \"-\").toLowerCase();\n}\n\nspinalCase(\"This Is Spinal Tap\");"}
