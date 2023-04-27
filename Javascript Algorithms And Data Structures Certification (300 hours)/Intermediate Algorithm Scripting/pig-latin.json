@@ -1,0 +1,1 @@
+{"index.js":"function translatePigLatin(str) {\n  let consonantRegex = /^[^aeiou]+/;\n  let myConsonants = str.match(consonantRegex);\n  return myConsonants !== null\n    ? str\n        .replace(consonantRegex, \"\")\n        .concat(myConsonants)\n        .concat(\"ay\")\n    : str.concat(\"way\");\n}\n\ntranslatePigLatin(\"consonant\");"}
