@@ -1,0 +1,1 @@
+{"index.js":"\"use strict\";\nimport * as myStringsModule from \"capitalize_strings\";"}
