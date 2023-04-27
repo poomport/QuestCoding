@@ -1,0 +1,1 @@
+{"index.js":"function nonMutatingPush(original, newItem) {\n  return original.concat(newItem);\n}\nvar first = [1, 2, 3];\nvar second = [4, 5];\nnonMutatingPush(first, second);"}
