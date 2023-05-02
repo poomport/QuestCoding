@@ -1,0 +1,1 @@
+{"index.jsx":"const reducer = (state = 5) => {\nreturn state;\n}\n\n\nconst store = Redux.createStore(reducer)"}
