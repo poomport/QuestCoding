@@ -1,0 +1,1 @@
+{"index.jsx":"class MyComponent extends React.Component {\n  constructor(props) {\n    super(props);\n  }\n  componentWillMount() {\n  console.log('Component being mounted');\n}\n  render() {\n    return <div  />\n  }\n};"}
