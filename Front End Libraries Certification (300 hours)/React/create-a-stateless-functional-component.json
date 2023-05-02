@@ -1,0 +1,1 @@
+{"index.jsx":"const MyComponent = function() {\n  return (<div> React\n  </div>\n  );\n}"}
