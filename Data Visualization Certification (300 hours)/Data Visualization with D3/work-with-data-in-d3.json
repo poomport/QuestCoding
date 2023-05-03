@@ -1,0 +1,1 @@
+{"index.html":"<body>\n  <script>\n    const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];\n    d3.select(\"body\").selectAll(\"li\")\n      .data(dataset)\n      .enter()\n      .append(\"h2\")\n      .text(\"New Title\");\n  </script>\n</body>"}
