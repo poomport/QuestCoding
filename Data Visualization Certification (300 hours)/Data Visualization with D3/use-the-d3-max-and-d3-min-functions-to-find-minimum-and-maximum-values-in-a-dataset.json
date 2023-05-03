@@ -1,0 +1,1 @@
+{"index.html":"<body>\n  <script>\n    const positionData = [[1, 7, -4],[6, 3, 8],[2, 8, 3]]\n    const output = d3.max(positionData, (d) => d[2]);\n      d3.select(\"body\")\n      .append(\"h2\")\n      .text(output)\n  </script>\n</body>"}
